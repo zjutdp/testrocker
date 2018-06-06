@@ -5,6 +5,14 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'Test Rocker';
+  title = 'Instant Search';
+
+  searchTerm: string;
+
+  newSearch(term){
+
+  }
+  
 }
