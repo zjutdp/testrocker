@@ -3,8 +3,7 @@
 </mat-toolbar>
 
 <section>
-    <input matInput placeholder="search" type="search" 
-    [(ngModel)]="searchTerm" (ngModelChange)="newSearch(searchTerm)"/>
+    <input type="search" [(ngModel)]="searchTerm" (ngModelChange)="newSearch(searchTerm)"/>
 </section>
 
 <!-- <button mat-button>Material Button</button> -->

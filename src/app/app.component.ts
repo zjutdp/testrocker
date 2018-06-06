@@ -12,7 +12,7 @@ export class AppComponent {
   searchTerm: string;
 
   newSearch(term){
-
+    console.log(`new serach with term ${term}`)
   }
   
 }
